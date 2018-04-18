@@ -71,7 +71,7 @@ contract APOTokenCrowdsale is Ownable, Crowdsale  {
         bountyWallet = 0x06F05ebdf3b871813f80C4A1744e66357B0d9e44;
         privateWallet = 0xb62109986F19f710415e71F27fAaF4ece89eFf83;
         teamTokens = new TokenTimelock(token, msg.sender, unlockTime);
-        reserveTokens = new TokenTimelock(token, '0x2700C56A67F12899a4CB9316ab6541d90EcE52E9, unlockTime);
+        reserveTokens = new TokenTimelock(token, 0x2700C56A67F12899a4CB9316ab6541d90EcE52E9, unlockTime);
     }
 
 
