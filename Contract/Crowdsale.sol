@@ -119,7 +119,7 @@ contract Crowdsale {
 
 
     function _getTokenAmount(uint256 _weiAmount) internal view returns (uint256) {
-        uint256 etherAmount = _weiAmount.mul(rate).div(1 ether);
+        uint256 etherAmount = _weiAmount.mul(rate);
         return etherAmount;
     }
 
